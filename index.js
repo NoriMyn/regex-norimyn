@@ -2,7 +2,7 @@
 import { extension_settings } from "../../../extensions.js";
 import { callGenericPopup, POPUP_TYPE } from "../../../popup.js";
 
-const extensionName = "regex-manager";
+const extensionName = "regex-norimin";
 
 if (!window.RegexManagerData) {
   window.RegexManagerData = {
