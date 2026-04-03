@@ -62,6 +62,10 @@
   color: #ffb3b3;
 }
 
+.regex-manager-body.collapsed {
+  display: none;
+}
+
 .regex-manager-section h4 {
   margin: 10px 0 8px;
   color: #d7d7d7;
@@ -98,11 +102,10 @@
   color: #9a9a9a;
   margin-top: 4px;
   margin-left: 24px;
+  word-break: break-word;
 }
 
-.regex-pack-count {
-  font-size: 10px;
-  color: #666;
-  margin-top: 3px;
-  margin-left: 24px;
+.regex-pack input[type="checkbox"]:disabled + .regex-pack-name,
+.regex-pack input[type="checkbox"]:disabled + label {
+  opacity: 0.5;
 }
