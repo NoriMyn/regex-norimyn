@@ -1,0 +1,81 @@
+{
+  "name": "Nori",
+  "description": "Мои регексы",
+  "scripts": [
+    {
+      "id": "bcea9b5f-0d89-48ba-8b17-2a3ca4572f1c",
+      "scriptName": "Nori Think Cleanup (Optional)",
+      "findRegex": "/[`\\s]*[\\[\\<]think[\\>\\]].*[\\[\\<]\\/think[\\>\\]][`\\s]*/ims",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [1, 2],
+      "disabled": false,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null
+    },
+    {
+      "id": "29b89155-d616-46e1-840a-07d7187253b3",
+      "scriptName": "Regex_infobloc",
+      "findRegex": "◈NORICORE◈[\\s\\S]*?◈/NORICORE◈",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [2],
+      "disabled": false,
+      "markdownOnly": false,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null
+    },
+    {
+      "id": "73661c14-cfb0-47b9-86b7-768fb53387b3",
+      "scriptName": "Nori Thinking Cleanup (Optional)",
+      "findRegex": "<thinking>[\\s\\S]*?<\\/thinking>",
+      "replaceString": "  ",
+      "trimStrings": [],
+      "placement": [2],
+      "disabled": false,
+      "markdownOnly": true,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null
+    },
+    {
+      "id": "eb739cbf-c5b7-41cc-8a36-1f70b12f31fb",
+      "scriptName": "Art DIV Cleanup",
+      "findRegex": "/\\s*<div[^>]*>[\\s\\S]*?<\\/div>\\s*/ims",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [1, 2],
+      "disabled": false,
+      "markdownOnly": false,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null
+    },
+    {
+      "id": "36bc41b5-a2f4-4ffd-a797-af58954a5c4d",
+      "scriptName": "Strip Choice Panel",
+      "findRegex": "<!-- CHOICE_PANEL_START -->[\\s\\S]*?<!-- CHOICE_PANEL_END -->",
+      "replaceString": "",
+      "trimStrings": [],
+      "placement": [2],
+      "disabled": false,
+      "markdownOnly": false,
+      "promptOnly": true,
+      "runOnEdit": true,
+      "substituteRegex": 0,
+      "minDepth": null,
+      "maxDepth": null
+    }
+  ]
+}
