@@ -1,0 +1,17 @@
+{
+    "id": "73661c14-cfb0-47b9-86b7-768fb53387b3",
+    "scriptName": "Nori Thinking Cleanup (Optional)",
+    "findRegex": "<thinking>((.|\\n)*)<\\/thinking>",
+    "replaceString": "  ",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

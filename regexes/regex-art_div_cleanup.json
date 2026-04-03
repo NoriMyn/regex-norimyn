@@ -1,10 +1,11 @@
 {
-    "id": "36bc41b5-a2f4-4ffd-a797-af58954a5c4d",
-    "scriptName": "Strip Choice Panel",
-    "findRegex": "<!-- CHOICE_PANEL_START -->[\\s\\S]*?<!-- CHOICE_PANEL_END -->",
+    "id": "eb739cbf-c5b7-41cc-8a36-1f70b12f31fb",
+    "scriptName": "Art DIV Cleanup",
+    "findRegex": "/\\s*<div[^>]*>[\\s\\S]*?<\\/div>\\s*/ims",
     "replaceString": "",
     "trimStrings": [],
     "placement": [
+        1,
         2
     ],
     "disabled": false,

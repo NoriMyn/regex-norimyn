@@ -1,14 +1,15 @@
 {
-    "id": "36bc41b5-a2f4-4ffd-a797-af58954a5c4d",
-    "scriptName": "Strip Choice Panel",
-    "findRegex": "<!-- CHOICE_PANEL_START -->[\\s\\S]*?<!-- CHOICE_PANEL_END -->",
+    "id": "bcea9b5f-0d89-48ba-8b17-2a3ca4572f1c",
+    "scriptName": "Nori Think Cleanup (Optional)",
+    "findRegex": "/[`\\s]*[\\[\\<]think[\\>\\]].*[\\[\\<]\\/think[\\>\\]][`\\s]*/ims",
     "replaceString": "",
     "trimStrings": [],
     "placement": [
+        1,
         2
     ],
     "disabled": false,
-    "markdownOnly": false,
+    "markdownOnly": true,
     "promptOnly": true,
     "runOnEdit": true,
     "substituteRegex": 0,
