@@ -1,6 +1,6 @@
 {
     "id": "36bc41b5-a2f4-4ffd-a797-af58954a5c4d",
-    "scriptName": "Buttons Panel",
+    "scriptName": "Панель кнопок",
     "findRegex": "<!-- CHOICE_PANEL_START -->[\\s\\S]*?<!-- CHOICE_PANEL_END -->",
     "replaceString": "",
     "trimStrings": [],
