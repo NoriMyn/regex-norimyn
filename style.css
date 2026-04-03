@@ -50,18 +50,6 @@
   color: #e8e8e8;
 }
 
-.regex-manager-control-row .menu_button.active {
-  background: #1a1a1a;
-  border-color: #444;
-  color: #fff;
-}
-
-.regex-manager-control-row .menu_button.inactive {
-  background: #120c0c;
-  border-color: #4a2222;
-  color: #ffb3b3;
-}
-
 .regex-manager-body.collapsed {
   display: none;
 }
@@ -95,14 +83,6 @@
   font-weight: 700;
   color: #ededed;
   cursor: pointer;
-}
-
-.regex-pack-desc {
-  font-size: 11px;
-  color: #9a9a9a;
-  margin-top: 4px;
-  margin-left: 24px;
-  word-break: break-word;
 }
 
 .regex-pack input[type="checkbox"]:disabled + .regex-pack-name,
