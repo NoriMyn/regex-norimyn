@@ -1,12 +1,19 @@
 #regex-manager-settings {
   margin-bottom: 12px;
-  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#regex-manager-settings .inline-drawer {
   border-radius: 12px;
+  overflow: hidden;
   background: linear-gradient(180deg, rgba(10,10,10,0.96) 0%, rgba(18,18,18,0.96) 100%);
   border: 1px solid rgba(255,255,255,0.08);
   box-shadow: 0 6px 18px rgba(0,0,0,0.35);
-  width: 100%;
-  box-sizing: border-box;
+}
+
+#regex-manager-settings .inline-drawer-header {
+  padding: 12px 14px;
 }
 
 .regex-manager-header {
@@ -104,8 +111,8 @@
 }
 
 @media (max-width: 768px) {
-  #regex-manager-settings {
-    padding: 10px;
+  #regex-manager-settings .inline-drawer-header {
+    padding: 10px 12px;
   }
 
   .regex-manager-header {
