@@ -39,37 +39,6 @@
   line-height: 1.4;
 }
 
-.regex-manager-controls {
-  margin-bottom: 12px;
-}
-
-.regex-manager-control-row {
-  display: flex;
-  gap: 8px;
-  width: 100%;
-}
-
-.regex-manager-control-row .menu_button {
-  width: 100%;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-size: 13px;
-  cursor: pointer;
-  background: #111;
-  border: 1px solid rgba(255,255,255,0.08);
-  color: #e8e8e8;
-  box-sizing: border-box;
-}
-
-.regex-manager-body {
-  display: block;
-  width: 100%;
-}
-
-.regex-manager-body.collapsed {
-  display: none;
-}
-
 .regex-manager-section h4 {
   margin: 10px 0 8px;
   color: #d7d7d7;
@@ -125,11 +94,6 @@
 
   .regex-manager-desc {
     font-size: 11px;
-  }
-
-  .regex-manager-control-row .menu_button {
-    font-size: 12px;
-    padding: 8px 10px;
   }
 
   .regex-pack {
