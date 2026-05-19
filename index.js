@@ -8,7 +8,8 @@ const PACK_FILES = [
   "regex_think",
   "regex_infobloc",
   "regex_buttons_panel",
-  "regex_html"
+  "regex_html",
+  "regex_message"
 ];
 
 if (!window.NoriMynRegexManagerData) {
