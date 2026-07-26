@@ -135,7 +135,35 @@ function renderPackList() {
     saveSettings();
     await reloadChatSafe();
   });
+
+  $("#norimyn-enable-all").off("click").on("click", () => setAllPacks(true));
+  $("#norimyn-disable-all").off("click").on("click", () => setAllPacks(false));
 }
+
+async function setAllPacks(enable) {
+  const allIds = Object.keys(window.NoriMynRegexManagerData.packs);
+
+  if (enable) {
+    for (const packId of allIds) {
+      if (!window.NoriMynRegexManagerData.enabled.includes(packId)) {
+        window.NoriMynRegexManagerData.enabled.push(packId);
+      }
+      injectRegexPack(packId);
+    }
+  } else {
+    for (const packId of allIds) {
+      removeRegexPack(packId);
+    }
+    window.NoriMynRegexManagerData.enabled = [];
+  }
+
+  saveSettings();
+  renderPackList();
+  await reloadChatSafe();
+}
+
+function injectRegexPack(packId) {
+  ...
 
 function injectRegexPack(packId) {
   const script = window.NoriMynRegexManagerData.packs[packId];
