@@ -163,9 +163,6 @@ async function setAllPacks(enable) {
 }
 
 function injectRegexPack(packId) {
-  ...
-
-function injectRegexPack(packId) {
   const script = window.NoriMynRegexManagerData.packs[packId];
   if (!script) return;
 
