@@ -4,7 +4,7 @@ import { extension_settings } from "../../../extensions.js";
 const extensionName = "regex-norimyn";
 
 const PACK_FILES = [
-  "regex_thinking",
+  "regex_очистка_rp_prefligh",
   "regex_think",
   "regex_infobloc",
   "regex_buttons_panel",
