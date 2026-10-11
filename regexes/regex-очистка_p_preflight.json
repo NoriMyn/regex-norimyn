@@ -1,0 +1,18 @@
+{
+    "id": "norimyn-rgxm-regex_think-bcea9b5f-0d89-48ba-8b17-2a3ca4572f1c",
+    "scriptName": "Очистка rp_preflight",
+    "findRegex": "/[`\\s]*[\\[\\<]rp_preflight[\\>\\]].*[\\[\\<]\\/rp_preflight[\\>\\]][`\\s]*/ims",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
